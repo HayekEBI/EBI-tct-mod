@@ -423,7 +423,7 @@ jet_data = {
     "windowColor": "#640080",
     "containerColor": "#b5c205",
     "innerWindowColor": "#230075",
-    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "bannerImageUrl": "https://tr.rbxcdn.com/2dcbaa1da3948cf17ccadfa581050d19/768/432/Image/Png",
     "backgroundImageUrl": "https://spartacus-educational.com/Pcommons.jpg?ezimgfmt=rs:412x335/rscb1/ngcb1/notWebP",
     "endingTextColor": "#000000"
 }
@@ -440,11 +440,10 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#b5c205";
 
-document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+document.getElementById("header").src = "https://tr.rbxcdn.com/2dcbaa1da3948cf17ccadfa581050d19/768/432/Image/Png";
 
 document.body.background = "https://spartacus-educational.com/Pcommons.jpg?ezimgfmt=rs:412x335/rscb1/ngcb1/notWebP";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;}</style>";
 
 //#endcode
-
