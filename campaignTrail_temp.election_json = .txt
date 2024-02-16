@@ -1,0 +1,450 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "It's been 4 months since the UEL won the last general election. A lot of things happened in parliament in that time. The The National Rejuvenation Act, The Blayre Declaration and many other bills have been enacted. The UEl's polling has collapsed. And it is expected for the party to gain halve of the votes they got last election. The two parties who are currently in the lead in polls are the NLU and the CUA. It looks to be a tight race between the two parties. So who will win the election? Only time can tell .",
+            "image_url": "https://tr.rbxcdn.com/5ed102761310cbc2adf0617ac28f6dfc/150/150/Image/Png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
+            "display_year": "January 2024 EBI general election"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "January 2024 EBI general election"
+    }
+]
+
+campaignTrail_temp.credits = "Hayek_Invictus"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 3241431,
+        "fields": {
+            "first_name": "National Liberty Union",
+            "last_name": "",
+            "election": 20,
+            "party": "NLU",
+            "state": "all",
+            "priority": 1,
+            "description": "<p>Ah yes, the National Liberty Union once called Home Rule League. The first party to ever win a general election. The NLU hasn't ever been able to regain the success they had before. The Polls are looking to be a close race with the Conservative and Unionist Alliance. Will the National Liberty Union win the election after all this time or will it lose once again?</p>",
+            "color_hex": "#e8f34f",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://tr.rbxcdn.com/f178d8a69570c7dd7d96674ee2bbe169/150/150/Image/Png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78969689,
+        "fields": {
+            "first_name": "Social Democratic Federation",
+            "last_name": "",
+            "election": 20,
+            "party": "SDF",
+            "state": "all",
+            "priority": 1,
+            "description": "<p>The SDF what to be said about them. Born from Labour Unions and pro-worker parties the SDF also participated in the first general election taking second place. The SDF decided to form a coalition with the NLU (At the time called the Home Rule League) mainly due to both parties support of Home Rule and decentralization. The party was the main competitor with the UEL until last election were they came third. The SDF is the biggest party in terms of party membership size however polling places them gaining less votes than the NFLP. Can the SDF win in a comeback of the ages or will they be pushed to the sidelines?</p>",
+            "color_hex": "#ff1100",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://tr.rbxcdn.com/e75ed151cc84ce4bf15a5a6bdd33cc3e/150/150/Image/Png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 586756736,
+        "fields": {
+            "first_name": "Conservative and Unionist Alliance",
+            "last_name": "",
+            "election": 20,
+            "party": "CUA",
+            "state": "all",
+            "priority": 1,
+            "description": "<p>The CUA was originally founded after the collapse of the OUP. The party came third in the first election it took part in and they came fourth in the next election. The CUA was on the sideline however this election things are different. Due to a multitude to factors the CUA is neck and neck with the NLU in polling. Can the CUA win or will they lose another election. </p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://tr.rbxcdn.com/2b38c2f902f870c37c1c7039c4a15517/150/150/Image/Png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87694874,
+        "fields": {
+            "first_name": "United Empire League ",
+            "last_name": "",
+            "election": 20,
+            "party": "UEL ",
+            "state": "all",
+            "priority": 1,
+            "description": "<p>The UEL has an interesting history. Originally called the BNU the UEL was formed from colonial societies and interest groups, nationalistic labour unions, and veteran organizations. The UEL came a close second to the SDF in the first ever election the party participated In gaining the Same number of Seats as the SDF. The National Front's current prime ministerial candidate is Bretxyz after The Incumbent Blayre Mosley imposing term limits on himself.</p>",
+            "color_hex": "#b30092",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://tr.rbxcdn.com/c35e5ad972e91de9c80ba52296a70ef8/150/150/Image/Png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 546372560986,
+        "fields": {
+            "first_name": "Liberal Alliance",
+            "last_name": "",
+            "election": 20,
+            "party": "LA",
+            "state": "all",
+            "priority": 1,
+            "description": "<p>The Liberal Alliance has a lot of similarities with the NLU. However there are a lot of differences between the two parties. The LA for starters is part of National Front while the NLU along with the  the SDF are the original founders of the Liberty Coalition. </p>",
+            "color_hex": "#6f6f76",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://tr.rbxcdn.com/e6cf249149ca0f4eb1b16284a67e1ea9/150/150/Image/Png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 7568579,
+        "fields": {
+            "first_name": "National Farmer-Labour Party",
+            "last_name": "",
+            "election": 20,
+            "party": "NFLP",
+            "state": "all",
+            "priority": 1,
+            "description": "<p>The Party for Farmers the NFLP. The party was founded as a successor to  working class and regional interest groups and political parties such as the Peasants and Farmers Party, IUA, and SUA.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://tr.rbxcdn.com/2cb698425736ae804ce91cd53973b17e/150/150/Image/Png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 6543,
+        "fields": {
+            "first_name": "Travis",
+            "last_name": "Burke ",
+            "election": 20,
+            "party": "National Liberty Union",
+            "state": "Galway ",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://media.discordapp.net/attachments/1040110362781040701/1201623109493588070/As_Prime_Minister.png?ex=65dcf2ba&is=65ca7dba&hm=531ad2baf5547b03f9db6fc22298f88506e8b2421aa6b92db12c4c55a29535f1&=&format=webp&quality=lossless&width=495&height=622",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Travis Burke leader of the NLU, father of parliament, Duke of Connaught, Major General and former prime minister. Burke has faithfully served the Empire for many years now and this election he is running for parliament again. Burke however will not be the Liberty Coalitions prime ministerial candidate due to the Term Limits act. Instead William James Locke will be the LC's prime ministerial candidate. So can the NLU and SDF gain enough seats to win or will the Liberty Coalition lose another election?  \n</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 45624,
+        "fields": {
+            "first_name": "William ",
+            "last_name": "James Locke",
+            "election": 20,
+            "party": "Social Democratic Federation",
+            "state": "Middlesex",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://media.discordapp.net/attachments/1021581071042744320/1146981862103842987/Tommy-Douglas.png?ex=65d7f699&is=65c58199&hm=3d1098be30c667d10f2910ee6752f76436831625a5e1cb410c9333c528ce2935&=&format=webp&quality=lossless&width=403&height=622",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>William James Locke is the current leader of the SDF and is the LC's candidate for prime minister. This election looks to be a challenge for the SDF as the party is projected to gain the fewest votes the party has ever gained in a general election, a far cry for the party that was once the main opposition to the  BNU/UEL. Can the SDF defy the odds or will the party fade lose even more vote's and the general election?  </p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 563542456535636,
+        "fields": {
+            "first_name": "Hiram ",
+            "last_name": "William Coke",
+            "election": 20,
+            "party": "Conservative and Unionist Alliance",
+            "state": "Norfolk",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://media.discordapp.net/attachments/1021581071042744320/1196590587902689320/Screenshot_2024-01-15_at_5.00.14_PM.png?ex=65dd18d3&is=65caa3d3&hm=f357f481d2f4ff2171a1c37f36714574072a2fe66c58f6c1bb0f4f5337612781&=&format=webp&quality=lossless&width=495&height=621",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Coke is the current chairman of the CUA. The CUA is expected to win this year's general election however Coke will not be the National Fronts candidate for prime minister. So can Coke manage to make the CUA win it's first election or will it lose another one?</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 7642456,
+        "fields": {
+            "first_name": " Hunter ",
+            "last_name": "Invictus",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 7678587,
+        "fields": {
+            "first_name": "NEWsta ",
+            "last_name": "Gustavsson",
+            "election": 20,
+            "party": "Liberal Alliance",
+            "state": "London",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://media.discordapp.net/attachments/1021581071042744320/1197323848325009470/chamberlain-12940-content-portrait-mobile-tiny.png?ex=65dfc3ba&is=65cd4eba&hm=cadc601360f667cd40bb63a5cb1fc13e26e31b647e3a7b230e068f027eb5e6ea&=&format=webp&quality=lossless",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>(Not Playable upon release)</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 23414312,
+        "fields": {
+            "first_name": "Bret ",
+            "last_name": "Hubbard",
+            "election": 20,
+            "party": "United Empire Leauge ",
+            "state": "London",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://media.discordapp.net/attachments/1207707428322549853/1207733649953529906/Screenshot_2024-02-15_180055.png?ex=65e0b89c&is=65ce439c&hm=f3112c2afa5931daec2fa63c68a6795df07f118bca012fe367293a54fe0c463c&=&format=webp&quality=lossless",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>(Never is going to be playable)</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 178500,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 50000
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 102706,
+        "fields": {
+            "candidate": 78969689,
+            "running_mate": 45624
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 84174,
+        "fields": {
+            "candidate": 3241431,
+            "running_mate": 6543
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 83242,
+        "fields": {
+            "candidate": 586756736,
+            "running_mate": 563542456535636
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 139929,
+        "fields": {
+            "candidate": 7568579,
+            "running_mate": 7642456
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 107333,
+        "fields": {
+            "candidate": 546372560986,
+            "running_mate": 7678587
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150662,
+        "fields": {
+            "candidate": 87694874,
+            "running_mate": 23414312
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            3241431,
+            78969689,
+            586756736,
+            87694874,
+            546372560986,
+            7568579
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            3241431,
+            78969689,
+            586756736,
+            87694874,
+            546372560986,
+            7568579
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#640080",
+    "containerColor": "#b5c205",
+    "innerWindowColor": "#230075",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://spartacus-educational.com/Pcommons.jpg?ezimgfmt=rs:412x335/rscb1/ngcb1/notWebP",
+    "endingTextColor": "#000000"
+}
+
+//#startcode
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#640080";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#b5c205";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://spartacus-educational.com/Pcommons.jpg?ezimgfmt=rs:412x335/rscb1/ngcb1/notWebP";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;}</style>";
+
+//#endcode
+
